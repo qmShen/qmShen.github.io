@@ -1,0 +1,44 @@
+.mb1 {
+    margin-bottom: 0.5rem
+}
+
+.mt1 {
+    margin-top: 1px
+}
+
+.page-title {
+    font-size: 2rem;
+    font-family: "Merriweather", serif;
+    -webkit-font-feature-settings: 'kern' 1;
+    -moz-font-feature-settings: 'kern' 1;
+    -o-font-feature-settings: 'kern' 1;
+    font-weight: bold;
+    line-height: 1.25;
+}
+
+h4,.h4 {
+    font-size: 1.25rem
+}
+
+
+.regular {
+    font-weight: normal
+}
+
+.body-font {
+    font-family: "Merriweather", serif;
+    -webkit-font-feature-settings: 'kern' 1;
+    -moz-font-feature-settings: 'kern' 1;
+    -o-font-feature-settings: 'kern' 1
+}
+.gray,.mid-gray {
+    color: #aaa
+}
+
+.inline-block {
+    display: inline-block
+}
+
+.justify {
+    text-align: justify;
+}
