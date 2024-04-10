@@ -511,3 +511,10 @@ footer {
 .courier-new {
     font-family: 'Courier New', monospace;
 }
+.research_direction{
+    color: #cb7502;
+}
+
+.intro span{
+    color: #cb7502; /* Replace with your desired color */
+}
