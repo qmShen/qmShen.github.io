@@ -457,7 +457,9 @@ footer {
 
 .px2 {
     padding-left: 1rem;
-    padding-right: 1rem
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .selected_publications{
     padding: 20px 0;

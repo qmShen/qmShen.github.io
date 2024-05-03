@@ -1,0 +1,94 @@
+.mb1 {
+    margin-bottom: 0.5rem
+}
+
+.mt1 {
+    margin-top: 1px
+}
+
+.page-title {
+    font-size: 2rem;
+    font-family: "Merriweather", serif;
+    -webkit-font-feature-settings: 'kern' 1;
+    -moz-font-feature-settings: 'kern' 1;
+    -o-font-feature-settings: 'kern' 1;
+    font-weight: bold;
+    line-height: 1.25;
+}
+
+h4, .h4 {
+    font-size: 1.25rem
+}
+
+
+.regular {
+    font-weight: normal
+}
+
+.body-font {
+    font-family: "Merriweather", serif;
+    -webkit-font-feature-settings: 'kern' 1;
+    -moz-font-feature-settings: 'kern' 1;
+    -o-font-feature-settings: 'kern' 1
+}
+
+.gray, .mid-gray {
+    color: #aaa
+}
+
+.inline-block {
+    display: inline-block
+}
+
+.justify {
+    text-align: justify;
+}
+
+
+.paper_image_size {
+    width: 180px;
+}
+
+
+/*----------------------------Head---------------------------*/
+.head-font {
+    font-family: "Merriweather", serif;
+    -webkit-font-feature-settings: 'kern' 1;
+    -moz-font-feature-settings: 'kern' 1;
+    -o-font-feature-settings: 'kern' 1;
+}
+
+.head-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.head-context {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.findme i {
+    color: #1e1e1e
+}
+
+.findme {
+    margin-top: 15px;
+}
+
+/*----------------------------Head---------------------------end*/
+
+.section-title {
+    font-family: "Merriweather", serif, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.grey-background {
+    background: none repeat scroll 0 0 #F1F1F1;
+}
+.section{
+    margin-top: 10px;
+}
+

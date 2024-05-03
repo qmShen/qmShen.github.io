@@ -6,17 +6,7 @@
     margin-top: 1px
 }
 
-.page-title {
-    font-size: 2rem;
-    font-family: "Merriweather", serif;
-    -webkit-font-feature-settings: 'kern' 1;
-    -moz-font-feature-settings: 'kern' 1;
-    -o-font-feature-settings: 'kern' 1;
-    font-weight: bold;
-    line-height: 1.25;
-}
-
-h4,.h4 {
+h4, .h4 {
     font-size: 1.25rem
 }
 
@@ -31,7 +21,8 @@ h4,.h4 {
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1
 }
-.gray,.mid-gray {
+
+.gray, .mid-gray {
     color: #aaa
 }
 
@@ -44,6 +35,114 @@ h4,.h4 {
 }
 
 
-.paper_image_size{
-    width: 180px;
+.paper_image_size {
+    width: 240px;
+}
+
+/*----------------------------Nav---------------------------*/
+.nav-bar {
+    background-color: white;
+}
+
+.nav-title {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif, "Merriweather", serif, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: .2em;
+    font-size: 25px;
+}
+
+.nav-text {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif, "Merriweather", serif, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: .2em;
+    font-size: 14px;
+}
+
+/*----------------------------Nav---------------------------end*/
+
+/*----------------------------Head---------------------------*/
+.head-font {
+    font-family: "Merriweather", serif;
+    -webkit-font-feature-settings: 'kern' 1;
+    -moz-font-feature-settings: 'kern' 1;
+    -o-font-feature-settings: 'kern' 1;
+}
+
+.head-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.head-context {
+    font-size: 20px;
+    font-weight: 500;
+}
+.findme i {
+    color: #1e1e1e
+}
+
+/*----------------------------Head---------------------------end*/
+
+
+/*----------------------------Publication---------------------------*/
+.pubYearContainer {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600
+}
+
+.publications a {
+    color: #5b5b5b;
+}
+
+.publications .publication-resource {
+    padding-right: 8px;
+}
+
+.publications .resource_container {
+    margin-top: 5px;
+}
+
+.publications h6 {
+    color: #4682b4;
+}
+
+.publication-container {
+    margin-left: 45px;
+}
+/*----------------------------Publication---------------------------end*/
+
+/*----------------------------Direction---------------------------*/
+.direction-title {
+    background-color: #797979;
+    height: 30px;
+}
+
+.direction-title {
+    font-size: 20px
+}
+
+/*----------------------------Direction---------------------------end*/
+/*----------------------------News---------------------------*/
+.news {
+    font-size: 14px;
+    font-family: 'Courier New', monospace;
+}
+/*----------------------------News---------------------------end*/
+
+
+/*----------------------------General--------------------------end*/
+
+
+.section-title {
+    font-family: "Merriweather", serif, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+
+
+.grey-background {
+    background: none repeat scroll 0 0 #F1F1F1;
 }
