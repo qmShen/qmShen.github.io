@@ -155,3 +155,106 @@ h4, .h4 {
 .grey-background {
     background: none repeat scroll 0 0 #F1F1F1;
 }
+
+.site-navbar {
+    min-height: 50px;
+    text-transform: uppercase;
+}
+
+.site-navbar .navbar-brand {
+    font-size: 25px;
+}
+
+.site-navbar .nav-link {
+    color: #fff;
+}
+
+.site-navbar .nav-link:hover,
+.site-navbar .nav-link:focus,
+.site-navbar .nav-link.active {
+    color: #d9edf7;
+}
+
+.research-page {
+    min-height: calc(100vh - 110px);
+    padding: 72px 0;
+}
+
+.research-intro {
+    max-width: 780px;
+    margin: 0 auto 42px;
+    text-align: center;
+}
+
+.research-intro h1,
+.research-links h2 {
+    color: #4682b4;
+}
+
+.research-intro p {
+    color: #555;
+    line-height: 1.8;
+}
+
+.research-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.research-card {
+    min-height: 220px;
+    padding: 26px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .04);
+}
+
+.research-card-icon {
+    margin-bottom: 14px;
+    color: #4682b4;
+    font-size: 24px;
+}
+
+.research-card h2 {
+    margin-bottom: 12px;
+    color: #333;
+    font-size: 20px;
+}
+
+.research-card p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+.research-links {
+    margin-top: 48px;
+    text-align: center;
+}
+
+.research-links p {
+    color: #666;
+}
+
+@media (max-width: 991.98px) {
+    .site-navbar .navbar-collapse {
+        padding: 8px 0 12px;
+    }
+
+    .research-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 575.98px) {
+    .research-page {
+        padding: 48px 0;
+    }
+
+    .research-grid {
+        grid-template-columns: 1fr;
+    }
+}
